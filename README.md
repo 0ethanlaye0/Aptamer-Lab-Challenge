@@ -27,6 +27,10 @@ Scripts and results from running AlphaFold 3 and Boltz-2 on aptamer-protein comp
 - **Singularity container** — alphafold3.sif (pulled from docker://chaunceyzhou/alphafold3)
 - **Dataset** — UTexas Aptamer Database available at https://zenodo.org/records/8387047
 
+## Other Files
+- `report.md` — Report containing workflow, Technical Issues, Limitations, and affinity analysis 
+- `Runbook.md` — File describing run process for both models on Andromeda
+
 ## Dataset
 UTexas Aptamer Database (1,415 sequences). Filtered to 80 complexes with valid aptamer sequences, protein targets found on UniProt, and experimental Kd values.
 
