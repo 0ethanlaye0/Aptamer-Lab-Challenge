@@ -5,6 +5,7 @@ Scripts and results from running AlphaFold 3 and Boltz-2 on aptamer-protein comp
 ## Files
 
 ### Input Preparation
+**These two were run on local machine, not Andromeda**
 - `make_jsons.py` — reads UTexas Aptamer Database, fetches protein sequences from UniProt, generates AF3 JSON input files
 - `make_yamls.py` — same as above but generates Boltz-2 YAML input files with affinity prediction properties
 
